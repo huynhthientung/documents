@@ -3,7 +3,7 @@ const { themes: prismThemes } = require('prism-react-renderer');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Tung Huynh — Docs',
+  title: 'Huynh Thien Tung — Docs',
   tagline: 'Infrastructure, Kubernetes, Cloud — documented cleanly.',
   favicon: 'img/favicon.ico',
 
@@ -74,7 +74,7 @@ const config = {
       image: 'img/social-card.png',
 
       navbar: {
-        title: 'Tung Huynh',
+        title: 'Huynh Thien Tung',
         logo: {
           alt: 'Logo',
           src: 'img/logo.svg',
@@ -100,6 +100,11 @@ const config = {
             label: 'AWS',
           },
           {
+            href: 'https://huynhthientung.com',
+            label: 'About',
+            position: 'right',
+          },
+          {
             href: 'https://github.com/tunght',
             label: 'GitHub',
             position: 'right',
@@ -109,7 +114,7 @@ const config = {
       },
 
       footer: {
-        style: 'dark',
+        style: 'light',
         links: [
           {
             title: 'Docs',
@@ -126,10 +131,14 @@ const config = {
                 label: 'GitHub',
                 href: 'https://github.com/tunght',
               },
+              {
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/in/huynhthientung',
+              },
             ],
           },
         ],
-        copyright: `© ${new Date().getFullYear()} Tung Huynh. Built with Docusaurus.`,
+        copyright: `© ${new Date().getFullYear()} Huynh Thien Tung. Built with Docusaurus.`,
       },
 
       prism: {
