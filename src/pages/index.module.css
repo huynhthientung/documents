@@ -1,0 +1,154 @@
+/* Hero */
+.hero {
+  padding: 5rem 1.5rem 4rem;
+  text-align: center;
+  background: radial-gradient(ellipse 80% 50% at 50% -10%, rgba(37, 99, 235, 0.08), transparent);
+}
+
+[data-theme='dark'] .hero {
+  background: radial-gradient(ellipse 80% 50% at 50% -10%, rgba(96, 165, 250, 0.07), transparent);
+}
+
+.heroInner {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.3em 0.85em;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  border-radius: 999px;
+  background: rgba(37, 99, 235, 0.1);
+  color: var(--ifm-color-primary);
+  border: 1px solid rgba(37, 99, 235, 0.2);
+  margin-bottom: 1.25rem;
+}
+
+[data-theme='dark'] .badge {
+  background: rgba(96, 165, 250, 0.1);
+  border-color: rgba(96, 165, 250, 0.2);
+}
+
+.heroTitle {
+  font-size: clamp(2rem, 5vw, 2.75rem);
+  font-weight: 750;
+  letter-spacing: -0.04em;
+  line-height: 1.15;
+  margin-bottom: 1rem;
+  color: var(--ifm-heading-color);
+}
+
+.heroSubtitle {
+  font-size: 1.125rem;
+  line-height: 1.65;
+  color: var(--ifm-color-secondary);
+  margin-bottom: 2rem;
+}
+
+.heroCta {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.ctaPrimary {
+  border-radius: 8px !important;
+  font-weight: 600 !important;
+  letter-spacing: -0.01em;
+}
+
+.ctaSecondary {
+  border-radius: 8px !important;
+  font-weight: 600 !important;
+  letter-spacing: -0.01em;
+}
+
+/* Topics */
+.topics {
+  padding: 3rem 1.5rem 5rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.topicsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.25rem;
+}
+
+/* Card */
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 1.75rem;
+  border-radius: 12px;
+  border: 1px solid var(--ifm-toc-border-color);
+  background: var(--ifm-background-surface-color);
+  text-decoration: none !important;
+  color: inherit !important;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease !important;
+  position: relative;
+}
+
+.card:hover {
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 4px 24px rgba(37, 99, 235, 0.1);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+[data-theme='dark'] .card:hover {
+  box-shadow: 0 4px 24px rgba(96, 165, 250, 0.08);
+}
+
+.cardIcon {
+  font-size: 1.75rem;
+  line-height: 1;
+}
+
+.cardTag {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ifm-color-primary);
+  margin-bottom: 0.35rem;
+}
+
+.cardTitle {
+  font-size: 1.125rem;
+  font-weight: 650;
+  letter-spacing: -0.02em;
+  margin: 0 0 0.5rem;
+  color: var(--ifm-heading-color);
+}
+
+.cardDescription {
+  font-size: 0.9rem;
+  line-height: 1.65;
+  color: var(--ifm-color-secondary);
+  margin: 0;
+}
+
+.cardArrow {
+  position: absolute;
+  bottom: 1.5rem;
+  right: 1.75rem;
+  font-size: 1.125rem;
+  color: var(--ifm-color-primary);
+  opacity: 0;
+  transform: translateX(-4px);
+  transition: opacity 0.15s ease, transform 0.15s ease !important;
+}
+
+.card:hover .cardArrow {
+  opacity: 1;
+  transform: translateX(0);
+}

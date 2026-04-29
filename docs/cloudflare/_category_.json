@@ -1,0 +1,8 @@
+{
+  "label": "Cloudflare",
+  "position": 2,
+  "link": {
+    "type": "doc",
+    "id": "cloudflare/intro"
+  }
+}
