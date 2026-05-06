@@ -38,6 +38,14 @@ const sidebars = {
         'kubernetes/ops/rbac',
       ],
     },
+    {
+      type: 'category',
+      label: 'Home Lab',
+      collapsed: false,
+      items: [
+        'kubernetes/lab/lab-setup-guide',
+      ],
+    },
   ],
 
   cloudflareSidebar: [
