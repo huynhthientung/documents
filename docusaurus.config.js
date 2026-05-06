@@ -10,7 +10,7 @@ const config = {
   url: 'https://docs.huynhthientung.com',
   baseUrl: '/',
 
-  organizationName: 'tunght',
+  organizationName: 'huynhthientung',
   projectName: 'lespaul-argo_cd',
   trailingSlash: false,
 
@@ -105,7 +105,7 @@ const config = {
             position: 'right',
           },
           {
-            href: 'https://github.com/tunght',
+            href: 'https://github.com/huynhthientung',
             label: 'GitHub',
             position: 'right',
           },
@@ -129,7 +129,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/tunght',
+                href: 'https://github.com/huynhthientung',
               },
               {
                 label: 'LinkedIn',
