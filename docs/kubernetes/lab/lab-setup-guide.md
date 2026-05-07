@@ -1,6 +1,6 @@
 ---
 id: lab-setup-guide
-title: Home Lab: K8s Cluster with GPU Node
+title: "Home Lab: K8s Cluster with GPU Node"
 tags: [kubernetes, gpu, kvm, qemu, cilium, argocd, nvidia, homelab, vfio, passthrough]
 ---
 
