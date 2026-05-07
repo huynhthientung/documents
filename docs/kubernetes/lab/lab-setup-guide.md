@@ -1,10 +1,10 @@
 ---
 id: lab-setup-guide
-title: Local Kubernetes Cluster with GPU Node — Full Setup Guide
+title: Home Lab: K8s Cluster with GPU Node
 tags: [kubernetes, gpu, kvm, qemu, cilium, argocd, nvidia, homelab, vfio, passthrough]
 ---
 
-# Local Kubernetes Cluster with GPU Node — Full Setup Guide
+# Home Lab: K8s Cluster with GPU Node
 
 **Ubuntu Desktop + KVM/QEMU + Kubernetes + Cilium + NVIDIA GPU Passthrough + ArgoCD**
 

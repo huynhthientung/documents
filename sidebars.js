@@ -10,6 +10,14 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: 'Home Lab',
+      collapsed: false,
+      items: [
+        'kubernetes/lab/lab-setup-guide',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Core Concepts',
       collapsed: false,
       items: [
@@ -36,14 +44,6 @@ const sidebars = {
         'kubernetes/ops/monitoring',
         'kubernetes/ops/scaling',
         'kubernetes/ops/rbac',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Home Lab',
-      collapsed: false,
-      items: [
-        'kubernetes/lab/lab-setup-guide',
       ],
     },
   ],
